@@ -1,0 +1,78 @@
+
+
+div.mySkill ul li{
+	list-style: none;
+	
+}
+
+.greenHeading{
+	color: rgb(30, 161, 155);
+}
+
+div.mySkill ul li h3{
+	font-weight: 500;
+}
+div.mySkill ul li h4{
+	font-weight: 400;
+}
+
+div.mySkill h1{
+	font-weight: 500;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	div.mySkill ul li h3{
+		font-weight: 400;
+		font-size: 17px;
+	}
+	div.mySkill ul li h4{
+		font-weight: 300;
+		font-size: 17px;
+	}
+	
+	div.mySkill h1{
+		font-weight: 400;
+		font-size: 20px;
+	}
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media (max-width: 575px) {
+	div.mySkill ul li h3{
+		font-weight: 400;
+		font-size: 17px;
+	}
+	div.mySkill ul li h4{
+		font-weight: 300;
+		font-size: 17px;
+	}
+	
+	div.mySkill h1{
+		font-weight: 400;
+		font-size: 20px;
+	}
+
+}
+
+
+@media (max-width: 768px) {
+	
+	div.mySkill ul li h3{
+		font-weight: 400;
+		font-size: 17px;
+	}
+	div.mySkill ul li h4{
+		font-weight: 300;
+		font-size: 17px;
+	}
+	
+	div.mySkill h1{
+		font-weight: 400;
+		font-size: 20px;
+	}
+
+	
+	
+}
+

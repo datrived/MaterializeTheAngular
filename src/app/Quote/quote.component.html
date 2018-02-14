@@ -1,0 +1,49 @@
+
+<div class="row">
+	<div class="col-md-4"></div>
+	<div class="col-md-4">
+		<h1 class="greenHeading"> My Inspirations</h1>
+		<mdb-carousel [isControls]="true" class="carousel slide carousel-fade myQuoteCarousel" [animation]="'fade'">
+			<!--First slide-->
+			<mdb-slide *ngFor="let quote of quotes">
+				<div class="card hm-black-strong">
+
+					<div class="view hm-black-strong">
+						<img class="img-fluid " src="{{quote.imgUrl}}" alt="{{quote.imgName}}">
+						<div class="mask waves-light" mdbRippleRadius></div>
+       				</div>
+					<div class="carousel-caption flex-center">
+						<div class="animated fadeInDown">
+							<h2 class="h2-responsive">{{quote.author}}</h2>
+							<h4 class="h4-responsive"><q>{{quote.text}}</q></h4>
+						</div>
+					</div>
+					<!--Card content-->
+					<div class="card-body">
+					</div>
+									
+				</div>
+			</mdb-slide>
+			<!--/First slide-->
+						
+		</mdb-carousel>
+		<!--/.Carousel Wrapper-->
+										
+	</div>
+	<div class="col-md-4"></div>
+
+</div>
+
+<footer class="page-footer center-on-small-only">
+				
+	<div class="row">
+							
+		<div class="col-md-12 text-center">
+			<div class="container-fluid">
+				<h6 class="h6-responsive greenFooter"><i>	© 2018 Copyright: Devanshi Trivedi </i></h6>
+							
+			</div>													
+		</div>
+	</div>
+</footer>
+						

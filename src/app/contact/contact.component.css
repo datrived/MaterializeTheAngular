@@ -1,0 +1,31 @@
+.myContact{
+	font-size: 30px;
+	color: #1ea19b;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+	.myContact{
+		font-size: 17px;
+		
+	}
+}
+
+@media (max-width: 575px) {
+
+	.myContact{
+		font-size: 17px;
+		
+	}
+}
+
+
+@media (max-width: 768px) {
+	.myContact{
+		font-size: 17px;
+		
+	}
+}
+
+
+
