@@ -1,0 +1,127 @@
+.view {
+	
+	 width: 100%;
+	 
+ }    
+ .navbar {
+	 background-color: transparent;
+ }
+ .top-nav-collapse {
+	 background-color: #4285F4;
+ }
+
+ .navbar-dark .navbar-toggler-icon{
+	 background-color: #1ea19b;
+	 background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#1ea19b' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+ }
+ 
+ .myBlackText{
+	 color: black;
+	 
+	 font-weight: 500;
+ }
+ .myRedText{
+	 color: #1ea19b;
+	 
+	 font-weight: 500;
+ }
+ 
+ header mdb-carousel{
+	 width: 100%;
+ }
+ 
+ 
+ mdb-carousel h1{
+	 font-size: 60px;
+ }
+ .contactBlack{
+	 font-size: 30px;
+	 color: black;
+ }
+ .navbar-brand{
+	 color: #1ea19b;
+	 font-size: 30px;
+	 font-weight: 500;
+ }
+ links ul li.nav-item .nav-link{
+	 font-size: 20px;
+	 color: #1ea19b;
+ }
+ /* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.contactBlack{
+		font-size: 17px;
+		
+	}
+	 mdb-carousel h1{
+		 font-size: 17px;
+		 
+	 }
+	 mdb-carousel h2, mdb-carousel h3{
+		font-size: 12px;
+		
+	}
+	.navbar-brand{
+		color: #1ea19b;
+		font-size: 15px;
+		font-weight: 500;
+	}
+	links ul li.nav-item .nav-link{
+		font-size: 12px;
+		color: #1ea19b;
+	} 
+	}
+
+@media (max-width: 575px) {
+		.contactBlack{
+			font-size: 17px;
+			
+		}
+		 mdb-carousel h1{
+			 font-size: 17px;
+			 
+		 }
+		 mdb-carousel h2, mdb-carousel h3{
+			font-size: 12px;
+			
+		}
+		.navbar-brand{
+			color: #1ea19b;
+			font-size: 15px;
+			font-weight: 500;
+		}
+		links ul li.nav-item .nav-link{
+			font-size: 12px;
+			color: #1ea19b;
+		} 
+}
+ 
+		 
+ 
+ @media (max-width: 768px) {
+	.contactBlack{
+		font-size: 17px;
+		
+	}
+	 mdb-carousel h1{
+		 font-size: 17px;
+		 
+	 }
+	 mdb-carousel h2, mdb-carousel h3{
+		font-size: 12px;
+		
+	}
+	.navbar-brand{
+		color: #1ea19b;
+		font-size: 15px;
+		font-weight: 500;
+	}
+	links ul li.nav-item .nav-link{
+		font-size: 12px;
+		color: #1ea19b;
+	} 
+	 
+ }
+
+
+ 

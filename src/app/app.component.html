@@ -1,0 +1,193 @@
+<header>         
+  <mdb-navbar SideClass="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar" [containerInside]="false">
+    <logo>
+      <a class="logo navbar-brand" href="#"><strong>Devanshi Trivedi</strong></a>
+    </logo>
+   <links>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active waves-light" mdbRippleRadius>
+          <a class="nav-link" href="#" >Home <span class="sr-only">(current)</span></a>
+        </li>
+      
+        <li class="nav-item waves-light" mdbRippleRadius>
+          <a class="nav-link" href="#myProfile">Profile</a>
+        </li>
+        <li class="nav-item waves-light" mdbRippleRadius>
+          <a class="nav-link" href="#myQuote">Quote</a>
+        </li>
+        
+      </ul>
+    </links>
+  </mdb-navbar>
+  
+  <mdb-carousel [isControls]="true" id="myHome" class="carousel slide carousel-fade myEntryCarousel" [animation]="'fade'">
+      <!--First slide-->
+      <mdb-slide class="myEntryCarousel">
+          <div id="videoView" class="view hm-indigo-slight">
+            
+            <video id="videoView" class="video-fluid" autoplay loop>
+              <source src="https://s3-us-west-1.amazonaws.com/letbucket/images/Network+-+12716+(1).mp4" type="video/mp4" />
+            </video>
+            
+          
+          </div>
+          <div class="carousel-caption flex-center">
+            <div class="animated fadeInDown">
+              <ul>
+                <li>
+                  <h1 class="h1-responsive">Namaste!</h1>
+                </li>
+                <li>
+                  <h2 class="h2-responsive">My name is Devanshi and I am a Full-Stack Software Developer.</h2>
+                </li>
+                <li>
+                  <h3 class="h3-responsive">I design and develop cool Web and Mobile applications.</h3>
+                </li>
+                <li>
+                  <h3 class="h3-responsive">I am looking for a full-time opportunity.</h3>
+                </li>
+                <li>
+                  <app-contact></app-contact>
+                </li>
+              
+              </ul>
+        
+          
+            </div>
+          </div>
+      </mdb-slide>
+      <!--/First slide-->
+      <!--Second slide-->
+      <mdb-slide class="myEntryCarousel">
+        <video class="video-fluid" autoplay loop>
+          <source src="https://s3-us-west-1.amazonaws.com/letbucket/images/Dashboard+-+10847.mp4" type="video/mp4" />
+          <div class="mask flex-center"></div>
+        </video>
+
+        
+        <div class="carousel-caption flex-center">
+            <div class="animated fadeInDown">
+          <ul>
+            <li>
+                <h1 class="h1-responsive myBlackText">Just like this.</h1>
+            </li>
+            <li>
+                <h2 class="h2-responsive myBlackText">Responsive and cross-browser compatible.</h2>
+            </li>
+            <li>
+                <h3 class="h3-responsive myBlackText">Elegant in look and blissful to interact.</h3>
+            </li>
+            <li>
+                <a  class="icons-lg li-ic contactBlack" href="https://www.linkedin.com/in/devanshi-trivedi-developer/"><i class="fa fa-linkedin"> </i></a>
+    
+                      &nbsp;&nbsp;
+                <a  class="icons-lg fb-ic contactBlack" href="https://www.facebook.com/devanshi.tivedi"><i class="fa fa-facebook"> </i></a>
+                &nbsp;&nbsp;
+                <a  class="icons-sm email-ic contactBlack" href="https://mail.google.com/mail/?view=cm&fs=1&to=devanshi.trivedi.27@gmail.com&su=HelloFromYourWebsite"><i class="fa fa-envelope"> </i></a>
+                &nbsp;&nbsp;
+                <a  class="icons-sm email-ic contactBlack" href="https://github.com/datrived"><i class="fa fa-github"> </i></a>
+            </li>
+          </ul>
+          
+          </div>
+        </div>
+      </mdb-slide>
+      <!--/Second slide-->
+      <!--Third slide-->
+      <mdb-slide class="myEntryCarousel">
+          <video class="video-fluid hm-grey-strong" autoplay loop>
+            <source src="https://s3-us-west-1.amazonaws.com/letbucket/images/Time+-+13679.mp4" type="video/mp4" />
+          </video>
+          <div class="mask flex-center"></div>
+          
+          <div class="carousel-caption flex-center">
+              <div class="animated fadeInDown">
+            <ul>
+              <li>
+                  <h1 class="h1-responsive myBlackText">I value and prioritize time.</h1>
+              </li>
+              <li>
+                  <h2 class="h2-responsive myBlackText">By assuring the perfection and completion of the task in hand.</h2>
+              </li>
+              <li>
+                <a  class="icons-lg li-ic contactBlack" href="https://www.linkedin.com/in/devanshi-trivedi-developer/"><i class="fa fa-linkedin"> </i></a>
+    
+                &nbsp;&nbsp;
+          <a  class="icons-lg fb-ic contactBlack" href="https://www.facebook.com/devanshi.tivedi"><i class="fa fa-facebook"> </i></a>
+          &nbsp;&nbsp;
+          <a  class="icons-sm email-ic contactBlack" href="https://mail.google.com/mail/?view=cm&fs=1&to=devanshi.trivedi.27@gmail.com&su=HelloFromYourWebsite"><i class="fa fa-envelope"> </i></a>
+          &nbsp;&nbsp;
+          <a  class="icons-sm email-ic contactBlack" href="https://github.com/datrived"><i class="fa fa-github"> </i></a>
+              </li>
+            </ul>
+            
+            </div>
+          </div>
+      </mdb-slide>
+      <mdb-slide class="myEntryCarousel">
+          <div class="view hm-indigo-slight">
+          <video class="video-fluid hm-white-strong" autoplay loop>
+            <source src="https://s3-us-west-1.amazonaws.com/letbucket/images/Source+Code+-+4733.mp4" type="video/mp4" />
+          </video>
+          <div class="mask flex-center"></div>
+          </div>
+         
+            
+          <div class="carousel-caption flex-center">
+            <div class="animated fadeInDown">
+              <ul>
+                <li>
+                    <h1 class="h1-responsive">I am minimalist and detail-oriented.</h1>
+                </li>
+                <li>
+                    <h2 class="h2-responsive">I practice highly robust, effecient and secure code.</h2>
+                </li>
+                <li>
+                    <app-contact></app-contact>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+        </mdb-slide>
+        <mdb-slide class="myEntryCarousel">
+          <div class="view hm-indigo-slight">
+            <video class="video-fluid" autoplay loop>
+              <source src="https://s3-us-west-1.amazonaws.com/letbucket/images/Milky+Way+-+10339.mp4" type="video/mp4" />
+            </video>
+            <div class="mask flex-center"></div>
+          </div>
+          <div class="carousel-caption flex-center">
+            <div class="animated fadeInDown">
+              <ul>
+                  <li>
+                      <h1 class="h1-responsive">My collegues adore my reliablity and proactive decisions.</h1>
+                  </li>
+                  <li>
+                      <h3 class="h3-responsive">In my experience, Keeping track of the latest technological trends and eagerness to learning new things always pays back.</h3>
+                  </li>
+                  
+                  <li>
+                      <app-contact></app-contact>
+                  </li>
+                </ul>
+            
+              
+            </div>
+          </div>
+        </mdb-slide>
+        
+    </mdb-carousel>
+  
+  
+</header>     
+
+<main class="text-center py-5">
+
+  <app-skill id="myProfile"></app-skill>
+        
+  <quote id="myQuote"></quote>
+        
+</main>
+
+    
